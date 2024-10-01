@@ -1,0 +1,10 @@
+[package]
+name = "trnsys-julia-type"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jlrs = {version = "0.21.0", features = ["julia-1-10", "local-rt"]}
+
+[lib]
+crate-type = ["cdylib"]
